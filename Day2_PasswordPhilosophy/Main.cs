@@ -8,7 +8,7 @@ namespace AdventOfCode.Day2
     {
         public static string PartOne()
         {
-            var lines = File.ReadLines(@"Day2_PasswordPhilosophy\partOne.txt");
+            var lines = File.ReadLines(@"Day2_PasswordPhilosophy\input.txt");
             var result = 0;    
             
             foreach(var line in lines) {
@@ -30,7 +30,7 @@ namespace AdventOfCode.Day2
         }
         public static string PartTwo()
         {
-            var lines = File.ReadLines(@"Day2_PasswordPhilosophy\partOne.txt");
+            var lines = File.ReadLines(@"Day2_PasswordPhilosophy\input.txt");
             var result = 0;    
             
             foreach(var line in lines) {

@@ -8,7 +8,7 @@ namespace AdventOfCode.Day1
     {
         public static string PartOne()
         {
-            var lines = File.ReadLines(@"Day1_ReportRepair\partOne.txt")
+            var lines = File.ReadLines(@"Day1_ReportRepair\input.txt")
                 .Select(x => int.Parse(x))
                 .ToHashSet();
 
@@ -20,7 +20,7 @@ namespace AdventOfCode.Day1
 
         public static string PartTwo()
         {
-            var lines = File.ReadLines(@"Day1_ReportRepair\partTwo.txt")
+            var lines = File.ReadLines(@"Day1_ReportRepair\input.txt")
                 .Select(x => int.Parse(x))
                 .ToHashSet();
 
