@@ -10,7 +10,7 @@ namespace AdventOfCode.Day4
     {
         public static string PartOne()
         {
-            var lines = File.ReadLines(@"Day4\input.txt").ToList();
+            var lines = File.ReadLines(@"Day4_PassportProcessing\input.txt").ToList();
 
             var required = new[] { "byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid" };
             var result = 0;
@@ -39,9 +39,9 @@ namespace AdventOfCode.Day4
         }
 
         public static string PartTwo()
-        
+
         {
-            var lines = File.ReadLines(@"Day4\input.txt").ToList();
+            var lines = File.ReadLines(@"Day4_PassportProcessing\input.txt").ToList();
 
             var required = new[] { "byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid" };
             var result = 0;
