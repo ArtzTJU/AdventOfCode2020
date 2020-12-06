@@ -2,7 +2,7 @@
 
 namespace AdventOfCode
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -14,6 +14,10 @@ namespace AdventOfCode
             Console.WriteLine(Day3.Main.PartTwo());
             Console.WriteLine(Day4.Main.PartOne());
             Console.WriteLine(Day4.Main.PartTwo());
+            Console.WriteLine(Day5.Main.PartOne());
+            Console.WriteLine(Day5.Main.PartTwo());
+            Console.WriteLine(Day6.Main.PartOne());
+            Console.WriteLine(Day6.Main.PartTwo());
         }
     }
 }

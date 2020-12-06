@@ -39,7 +39,6 @@ namespace AdventOfCode.Day4
         }
 
         public static string PartTwo()
-
         {
             var lines = File.ReadLines(@"Day4_PassportProcessing\input.txt").ToList();
 
@@ -72,6 +71,7 @@ namespace AdventOfCode.Day4
 
             return result.ToString();
         }
+
         private static bool AreValidFields(Dictionary<string, string> fields)
         {
             var valid = true;
