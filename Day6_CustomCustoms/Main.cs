@@ -14,7 +14,7 @@ namespace AdventOfCode.Day6
 
             var result = lines.Split("\r\n\r\n")
                 .Sum(x => x
-                    .Replace("\r\n", string.Empty)
+                    .Except("\r\n")
                     .Distinct()
                     .Count());
 
@@ -25,7 +25,7 @@ namespace AdventOfCode.Day6
         {
             var lines = File.ReadAllText(@"Day6_CustomCustoms\input.txt");  
 
-            var result = lines.Split("\r\n\r\n", StringSplitOptions.RemoveEmptyEntries)
+            var result = lines.Split("\r\n\r\n")
                 .Select(x => x.Split("\r\n", StringSplitOptions.RemoveEmptyEntries)
                     .Select(y => y.ToArray())
                     .Aggregate((prev, next) => prev.Intersect(next).ToArray()))
