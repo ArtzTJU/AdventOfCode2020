@@ -8,7 +8,7 @@ namespace AdventOfCode.Day7
     {
         public static string PartOne()
         {
-            var lines = File.ReadLines(@"Day7\input.txt").ToList();
+            var lines = File.ReadLines(@"Day7_HandyHaversacks\input.txt").ToList();
 
             var bags = ParseBags(lines);
             var goldBag = bags["shiny gold"];
@@ -18,7 +18,7 @@ namespace AdventOfCode.Day7
 
         public static string PartTwo()
         {
-            var lines = File.ReadLines(@"Day7\input.txt").ToList();
+            var lines = File.ReadLines(@"Day7_HandyHaversacks\input.txt").ToList();
 
             var bags = ParseBags(lines);
             var goldBag = bags["shiny gold"];
