@@ -10,20 +10,18 @@ namespace AdventOfCode.Day7
         {
             var lines = File.ReadLines(@"Day7_HandyHaversacks\input.txt").ToList();
 
-            var bags = ParseBags(lines);
-            var goldBag = bags["shiny gold"];
+            var bag = ParseBags(lines)["shiny gold"];
 
-            return goldBag.GetParentColors().Distinct().Count().ToString();
+            return bag.GetParentColors().Distinct().Count().ToString();
         }
 
         public static string PartTwo()
         {
             var lines = File.ReadLines(@"Day7_HandyHaversacks\input.txt").ToList();
 
-            var bags = ParseBags(lines);
-            var goldBag = bags["shiny gold"];
+            var bag = ParseBags(lines)["shiny gold"];
 
-            return goldBag.GetChildrenAmount().ToString();
+            return bag.GetChildrenAmount().ToString();
         }
 
         private static Dictionary<string, Bag> ParseBags(IEnumerable<string> lines)
