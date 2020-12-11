@@ -10,7 +10,7 @@ namespace AdventOfCode.Day11
     {
         public static string PartOne()
         {
-            var lines = File.ReadAllLines(@"Day11\input.txt");
+            var lines = File.ReadAllLines(@"Day11_SeatingSystem\input.txt");
             var seats = new Dictionary<(int x, int y), char>();
 
             for (var y = 0; y < lines.Length; y++)
@@ -81,7 +81,7 @@ namespace AdventOfCode.Day11
         
         public static string PartTwo()
         {
-            var lines = File.ReadAllLines(@"Day11\input.txt");
+            var lines = File.ReadAllLines(@"Day11_SeatingSystem\input.txt");
             var seats = new Dictionary<(int x, int y), char>();
 
             for (var y = 0; y < lines.Length; y++)
