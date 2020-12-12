@@ -30,8 +30,6 @@ namespace AdventOfCode.Day11
                 if (changed == false)
                     return seats.Count(x => x.Value == '#').ToString();
             }
-
-            return "-1";
         }
 
         private static Dictionary<(int x, int y), char> Tick(Dictionary<(int x, int y), char> input, out bool changed)
@@ -101,8 +99,6 @@ namespace AdventOfCode.Day11
                 if (changed == false)
                     return seats.Count(x => x.Value == '#').ToString();
             }
-
-            return "-1";
         }
 
         private static Dictionary<(int x, int y), char> TickTwo(Dictionary<(int x, int y), char> input, out bool changed)
