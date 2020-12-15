@@ -32,8 +32,10 @@ namespace AdventOfCode
             // Console.WriteLine(Day12.Main.PartTwo());
             // Console.WriteLine(Day13.Main.PartOne());
             // Console.WriteLine(Day13.Main.PartTwo());
-            Console.WriteLine(Day14.Main.PartOne());
-            Console.WriteLine(Day14.Main.PartTwo());
+            // Console.WriteLine(Day14.Main.PartOne());
+            // Console.WriteLine(Day14.Main.PartTwo());
+            Console.WriteLine(Day15.Main.PartOne());
+            Console.WriteLine(Day15.Main.PartTwo());
         }
     }
 }

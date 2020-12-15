@@ -9,7 +9,7 @@ namespace AdventOfCode.Day13
     {
         public static string PartOne()
         {
-            var lines = File.ReadLines(@"Day13\input.txt").ToList(); ;
+            var lines = File.ReadLines(@"Day13_ShuttleSearch\input.txt").ToList(); ;
 
             var departTime = int.Parse(lines[0]);
             var buses = lines[1].Split(',').Where(x => int.TryParse(x, out var _)).Select(int.Parse).ToList();
@@ -21,36 +21,19 @@ namespace AdventOfCode.Day13
                 var time = bus;
 
                 while (time < departTime)
-                {
                     time += bus;
-                }
 
                 times[bus] = time;
             }
 
-            var res = times.OrderBy(x => x.Value).First();
+            var firstPossibleBus = times.OrderBy(x => x.Value).First();
 
-            return ((res.Value - departTime) * res.Key).ToString();
+            return ((firstPossibleBus.Value - departTime) * firstPossibleBus.Key).ToString();
         }
 
         public static string PartTwo()
         {
-            var lines = File.ReadLines(@"Day13\input.txt").ToList(); ;
-
-            var buses = lines[1].Split(',')
-                .Select((x,i) => new { x, i})
-                .Where(x => int.TryParse(x.x, out var _))
-                .ToList();
-
-            var times = new Dictionary<int, int>();
-
-            foreach (var bus in buses)
-            {
-                Console.Write(bus.i +1 ); Console.Write("-"+bus.x);
-                Console.WriteLine()
-;
-            }
-
+            var lines = File.ReadLines(@"Day13_ShuttleSearch\input.txt").ToList(); 
 
             return "";
         }
