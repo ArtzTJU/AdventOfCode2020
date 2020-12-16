@@ -10,7 +10,7 @@ namespace AdventOfCode.Day16
     {
         public static string PartOne()
         {
-            var lines = File.ReadLines(@"Day16\input.txt");
+            var lines = File.ReadLines(@"Day16_TicketTranslation\input.txt");
 
             var fields = lines
                 .Take(20)
@@ -46,7 +46,7 @@ namespace AdventOfCode.Day16
 
         public static string PartTwo()
         {
-            var lines = File.ReadLines(@"Day16\input.txt");
+            var lines = File.ReadLines(@"Day16_TicketTranslation\input.txt");
 
             var fields = lines
                 .Take(20)
