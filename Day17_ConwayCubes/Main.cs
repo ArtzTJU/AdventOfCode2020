@@ -124,7 +124,6 @@ namespace AdventOfCode.Day17
             return cubes.Count(x => x.Value).ToString();
         }
 
-
         public static Dictionary<(int x, int y, int z, int w), bool> GetNeighbors((int x, int y, int z, int w) target, Dictionary<(int x, int y, int z, int w), bool> cubes)
         {
             var possibleNeighbors = new List<(int x, int y, int z, int w)>();
