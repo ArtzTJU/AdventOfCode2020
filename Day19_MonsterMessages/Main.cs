@@ -10,7 +10,7 @@ namespace AdventOfCode.Day19
     {
         public static string PartOne()
         {
-            var text = File.ReadAllText(@"Day19\input.txt");
+            var text = File.ReadAllText(@"Day19_MonsterMessages\input.txt");
 
             var rules = text.Split("\r\n\r\n")[0]
                 .Split("\r\n")
@@ -39,7 +39,7 @@ namespace AdventOfCode.Day19
 
         public static string PartTwo()
         {
-            var text = File.ReadAllText(@"Day19\input.txt");
+            var text = File.ReadAllText(@"Day19_MonsterMessages\input.txt");
 
             var rules = text.Split("\r\n\r\n")[0]
                 .Split("\r\n")

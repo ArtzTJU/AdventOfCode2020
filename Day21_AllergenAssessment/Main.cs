@@ -10,7 +10,7 @@ namespace AdventOfCode.Day21
     {
         public static string PartOne()
         {
-            var lines = File.ReadAllLines(@"Day21\input.txt");
+            var lines = File.ReadAllLines(@"Day21_AllergenAssessment\input.txt");
 
             var allergensDict = new Dictionary<string, List<string>>();
             var ingredientsDict = new Dictionary<string, long>();
@@ -54,7 +54,7 @@ namespace AdventOfCode.Day21
 
         public static string PartTwo()
         {
-            var lines = File.ReadAllLines(@"Day21\input.txt");
+            var lines = File.ReadAllLines(@"Day21_AllergenAssessment\input.txt");
 
             var allergensDict = new Dictionary<string, List<string>>();
             var ingredientsDict = new Dictionary<string, long>();

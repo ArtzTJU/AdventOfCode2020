@@ -10,7 +10,7 @@ namespace AdventOfCode.Day18
     {
         public static string PartOne()
         {
-            var lines = File.ReadLines(@"Day18\input.txt").ToList();
+            var lines = File.ReadLines(@"Day18_OperationOrder\input.txt").ToList();
             var result = 0L;
 
             foreach(var line in lines)
@@ -70,7 +70,7 @@ namespace AdventOfCode.Day18
 
         public static string PartTwo()
         {
-            var lines = File.ReadLines(@"Day18\input.txt").ToList();
+            var lines = File.ReadLines(@"Day18_OperationOrder\input.txt").ToList();
             var result = 0L;
 
             foreach(var line in lines)

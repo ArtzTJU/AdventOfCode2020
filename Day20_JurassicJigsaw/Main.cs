@@ -10,7 +10,7 @@ namespace AdventOfCode.Day20
     {
         public static string PartOne()
         {
-            var input = File.ReadAllText(@"Day20\input.txt");
+            var input = File.ReadAllText(@"Day20_JurassicJigsaw\input.txt");
 
             var tiles = GetTilesGrid(input);
             var last = tiles.GetLength(0) - 1;
@@ -24,7 +24,7 @@ namespace AdventOfCode.Day20
 
         public static string PartTwo()
         {
-            var input = File.ReadAllText(@"Day20\input.txt");
+            var input = File.ReadAllText(@"Day20_JurassicJigsaw\input.txt");
 
             var grid = GetTilesGrid(input);
             var image = new List<string>();
