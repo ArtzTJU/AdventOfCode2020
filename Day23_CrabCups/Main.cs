@@ -10,7 +10,7 @@ namespace AdventOfCode.Day23
     {
         public static string PartOne()
         {
-            var numbers = File.ReadAllText(@"Day23\input.txt")
+            var numbers = File.ReadAllText(@"Day23_CrabCups\input.txt")
                 .Select(x => int.Parse(x.ToString()))
                 .ToList();
 
@@ -49,7 +49,7 @@ namespace AdventOfCode.Day23
 
         public static string PartTwo()
         {
-            var numbers = File.ReadAllText(@"Day23\input.txt")
+            var numbers = File.ReadAllText(@"Day23_CrabCups\input.txt")
                 .Select(x => int.Parse(x.ToString()))
                 .ToList();
 

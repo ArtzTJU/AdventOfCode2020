@@ -10,7 +10,7 @@ namespace AdventOfCode.Day22
     {
         public static string PartOne()
         {
-            var text = File.ReadAllText(@"Day22\input.txt");
+            var text = File.ReadAllText(@"Day22_CrabCombat\input.txt");
             var split = text.Split("\r\n\r\n");
 
             var player1 = split[0]
@@ -56,7 +56,7 @@ namespace AdventOfCode.Day22
 
         public static string PartTwo()
         {
-            var text = File.ReadAllText(@"Day22\input.txt");
+            var text = File.ReadAllText(@"Day22_CrabCombat\input.txt");
             var split = text.Split("\r\n\r\n");
 
             var player1 = split[0]

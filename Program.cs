@@ -51,7 +51,7 @@ namespace AdventOfCode
             // Console.WriteLine(Day22.Main.PartOne());
             // Console.WriteLine(Day22.Main.PartTwo());
             // Console.WriteLine(Day23.Main.PartOne());
-            Console.WriteLine(Day23.Main.PartTwo());
+            // Console.WriteLine(Day23.Main.PartTwo());
         }
     }
 }
