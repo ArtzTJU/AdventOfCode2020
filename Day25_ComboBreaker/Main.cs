@@ -10,7 +10,7 @@ namespace AdventOfCode.Day25
     {
         public static string PartOne()
         {
-            var lines = File.ReadAllLines(@"Day25\input.txt");
+            var lines = File.ReadAllLines(@"Day25_ComboBreaker\input.txt");
 
             var cardPublicKey = long.Parse(lines[0]);
             var doorPublicKey = long.Parse(lines[1]);

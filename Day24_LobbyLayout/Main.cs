@@ -10,7 +10,7 @@ namespace AdventOfCode.Day24
     {
         public static string PartOne()
         {
-            var lines = File.ReadAllLines(@"Day24\input.txt");
+            var lines = File.ReadAllLines(@"Day24_LobbyLayout\input.txt");
             var grid = new Dictionary<(int, int), bool>();
 
             foreach (var line in lines)
@@ -72,7 +72,7 @@ namespace AdventOfCode.Day24
 
         public static string PartTwo()
         {
-            var lines = File.ReadAllLines(@"Day24\input.txt");
+            var lines = File.ReadAllLines(@"Day24_LobbyLayout\input.txt");
             var grid = new Dictionary<(int, int), bool>();
 
             foreach (var line in lines)
