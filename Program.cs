@@ -7,8 +7,8 @@ namespace AdventOfCode
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine(Day1.Main.PartOne());
-            // Console.WriteLine(Day1.Main.PartTwo());
+            Console.WriteLine(Day1.Main.PartOne());
+            Console.WriteLine(Day1.Main.PartTwo());
             // Console.WriteLine(Day2.Main.PartOne());
             // Console.WriteLine(Day2.Main.PartTwo());
             // Console.WriteLine(Day3.Main.PartOne());
@@ -55,8 +55,8 @@ namespace AdventOfCode
             // Console.WriteLine(Day23.Main.PartTwo());
             // Console.WriteLine(Day24.Main.PartOne());
             // Console.WriteLine(Day24.Main.PartTwo());
-            Console.WriteLine(Day25.Main.PartOne());
-            Console.WriteLine(Day25.Main.PartTwo());
+            // Console.WriteLine(Day25.Main.PartOne());
+            // Console.WriteLine(Day25.Main.PartTwo());
         }
     }
 }
